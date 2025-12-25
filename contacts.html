@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Контакты | GridSite</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Контакты компании GridSite. Свяжитесь с нами по телефону, email или через форму обратной связи.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="header" id="top">
+  <div class="logo">GridSite</div>
+
+  <nav class="nav">
+    <a class="nav__link active" href="index.html">Главная</a>
+    <a class="nav__link" href="about.html">О компании</a>
+    <a class="nav__link" href="services.html">Услуги</a>
+    <a class="nav__link" href="contacts.html">Контакты</a>
+  </nav>
+</header>
+
+<main class="main">
+  <section class="section contact reveal">
+    <div>
+      <h1>Контакты</h1>
+      <p><b>Адрес:</b> г. __________</p>
+      <p><b>Телефон:</b> +7 ___ ___ __ __</p>
+      <p><b>Email:</b> example@mail.com</p>
+    </div>
+
+    <form class="form" action="#" method="post">
+      <label class="field">
+        <span>Имя</span>
+        <input class="input" type="text" required>
+      </label>
+
+      <label class="field">
+        <span>Email</span>
+        <input class="input" type="email" required>
+      </label>
+
+      <label class="field field--full">
+        <span>Сообщение</span>
+        <textarea class="input" rows="4" required></textarea>
+      </label>
+
+      <button class="btn" type="submit">Отправить</button>
+    </form>
+
+    <div class="map">
+      <div class="map-box">Карта (можно вставить Google Maps позже)</div>
+    </div>
+  </section>
+</main>
+<script src="js/script.js" defer></script>
+</body>
+</html>
